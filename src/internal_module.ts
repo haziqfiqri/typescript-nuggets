@@ -1,5 +1,5 @@
 namespace studentCalculator { 
-    export const AnnualFeeCalculator = (feeAmout: number, term: number) => { 
+    export function AnnualFeeCalculator (feeAmout: number, term: number) { 
         return feeAmout * term;
     }
 }
@@ -7,7 +7,7 @@ namespace studentCalculator {
 namespace invoiceCalculator { 
     export namespace invoiceAccout { 
         export class Invoice { 
-            public calculateDiscount = (price: number) => { 
+            calculateDiscount (price: number) { 
                 return price * 0.60
             }
         }

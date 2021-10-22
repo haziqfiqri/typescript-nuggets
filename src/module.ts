@@ -7,4 +7,4 @@ let secondInternalModule = new invoiceCalculator.invoiceAccout.Invoice()
 import { Calculator } from "./external_module"
 
 let firstExternalModule = new Calculator (1, 1)
-firstExternalModule.Addition()
+firstExternalModule.addition()

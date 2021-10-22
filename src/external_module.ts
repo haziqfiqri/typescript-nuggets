@@ -7,7 +7,7 @@ export class Calculator {
         this.secondNum = secondNum
     }
 
-    public Addition = () => { 
+    addition() { 
         return this.firstNum + this.secondNum
     }
 }
